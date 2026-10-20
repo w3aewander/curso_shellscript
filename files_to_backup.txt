@@ -1,0 +1,152 @@
+/home/administrador/projetos/shellscript/backupv3.sh
+/home/administrador/projetos/shellscript/aula08.sh
+/home/administrador/projetos/shellscript/README.md
+/home/administrador/projetos/shellscript/imagens
+/home/administrador/projetos/shellscript/imagens/aula03_capa.jpeg
+/home/administrador/projetos/shellscript/imagens/capa - operadores e expressões-00.png
+/home/administrador/projetos/shellscript/imagens/capa - operadores e expressões-2.png
+/home/administrador/projetos/shellscript/imagens/aula_array.mp4
+/home/administrador/projetos/shellscript/imagens/Shell Script_aula08-3r.png
+/home/administrador/projetos/shellscript/imagens/capa - operadores e expressões-titulo da aula.png
+/home/administrador/projetos/shellscript/imagens/aula4-b.png
+/home/administrador/projetos/shellscript/imagens/principio dos sistemas de informação computacionais.jpeg
+/home/administrador/projetos/shellscript/imagens/capa_tput_cup.png
+/home/administrador/projetos/shellscript/imagens/curso_gratis_com_pegadinha.jpeg
+/home/administrador/projetos/shellscript/imagens/aula4.png
+/home/administrador/projetos/shellscript/imagens/IMZcimK05LwqA.png
+/home/administrador/projetos/shellscript/imagens/encontrando_script_malicioo.jpeg
+/home/administrador/projetos/shellscript/imagens/aula_listas_2.png
+/home/administrador/projetos/shellscript/imagens/aula01_capa.jpeg
+/home/administrador/projetos/shellscript/imagens/aula04_capa.jpeg
+/home/administrador/projetos/shellscript/imagens/aula02_capa.jpeg
+/home/administrador/projetos/shellscript/imagens/download_demorando.jpeg
+/home/administrador/projetos/shellscript/imagens/IMJJ3qq5zmj7I.png
+/home/administrador/projetos/shellscript/imagens/programador_dormingo_IA_trabalhando.jpeg
+/home/administrador/projetos/shellscript/imagens/operadores.png
+/home/administrador/projetos/shellscript/imagens/capa - operadores e expressões.png
+/home/administrador/projetos/shellscript/imagens/aula_listas_cup.png
+/home/administrador/projetos/shellscript/imagens/Shell Script_aula08-2r.png
+/home/administrador/projetos/shellscript/imagens/capa_1_listas_cup.png
+/home/administrador/projetos/shellscript/imagens/capa_2_listas_cup.png
+/home/administrador/projetos/shellscript/imagens/manual_alterar_situação_de_matricula.pdf
+/home/administrador/projetos/shellscript/imagens/Shell Script_aula08-1r.png
+/home/administrador/projetos/shellscript/imagens/IMaxwFiFrwPdY.png
+/home/administrador/projetos/shellscript/imagens/capa_3_listas_cup.png
+/home/administrador/projetos/shellscript/backupv2.sh
+/home/administrador/projetos/shellscript/aula05.sh
+/home/administrador/projetos/shellscript/administrador
+/home/administrador/projetos/shellscript/administrador/projetos
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/backupv3.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/aula08.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/README.md
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/aula03_capa.jpeg
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/capa - operadores e expressões-00.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/capa - operadores e expressões-2.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/aula_array.mp4
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/Shell Script_aula08-3r.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/capa - operadores e expressões-titulo da aula.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/aula4-b.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/principio dos sistemas de informação computacionais.jpeg
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/capa_tput_cup.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/curso_gratis_com_pegadinha.jpeg
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/aula4.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/IMZcimK05LwqA.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/encontrando_script_malicioo.jpeg
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/aula_listas_2.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/aula01_capa.jpeg
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/aula04_capa.jpeg
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/aula02_capa.jpeg
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/download_demorando.jpeg
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/IMJJ3qq5zmj7I.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/programador_dormingo_IA_trabalhando.jpeg
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/operadores.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/capa - operadores e expressões.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/aula_listas_cup.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/Shell Script_aula08-2r.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/capa_1_listas_cup.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/capa_2_listas_cup.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/manual_alterar_situação_de_matricula.pdf
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/Shell Script_aula08-1r.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/IMaxwFiFrwPdY.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/imagens/capa_3_listas_cup.png
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/backupv2.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/aula05.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/Operadores em Shell Script — Tecnologia WS.pptx
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/aula06.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/Laços de repetição em Shell Script — Tecnologia WS.pptx
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/aula10.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/aula02.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/rascunhos
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/rascunhos/aula03.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/aula03.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/aula07.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/aula01.sh
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/texto1.txt
+/home/administrador/projetos/shellscript/administrador/projetos/shellscript/aula04.sh
+/home/administrador/projetos/shellscript/Operadores em Shell Script — Tecnologia WS.pptx
+/home/administrador/projetos/shellscript/aula06.sh
+/home/administrador/projetos/shellscript/Laços de repetição em Shell Script — Tecnologia WS.pptx
+/home/administrador/projetos/shellscript/aula10.sh
+/home/administrador/projetos/shellscript/aula02.sh
+/home/administrador/projetos/shellscript/rascunhos
+/home/administrador/projetos/shellscript/rascunhos/aula03.sh
+/home/administrador/projetos/shellscript/aula03.sh
+/home/administrador/projetos/shellscript/aula07.sh
+/home/administrador/projetos/shellscript/aula01.sh
+/home/administrador/projetos/shellscript/error.log
+/home/administrador/projetos/shellscript/home
+/home/administrador/projetos/shellscript/home/administrador
+/home/administrador/projetos/shellscript/home/administrador/projetos
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/backupv3.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/aula08.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/README.md
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/aula03_capa.jpeg
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/capa - operadores e expressões-00.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/capa - operadores e expressões-2.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/aula_array.mp4
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/Shell Script_aula08-3r.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/capa - operadores e expressões-titulo da aula.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/aula4-b.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/principio dos sistemas de informação computacionais.jpeg
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/capa_tput_cup.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/curso_gratis_com_pegadinha.jpeg
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/aula4.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/IMZcimK05LwqA.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/encontrando_script_malicioo.jpeg
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/aula_listas_2.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/aula01_capa.jpeg
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/aula04_capa.jpeg
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/aula02_capa.jpeg
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/download_demorando.jpeg
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/IMJJ3qq5zmj7I.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/programador_dormingo_IA_trabalhando.jpeg
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/operadores.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/capa - operadores e expressões.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/aula_listas_cup.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/Shell Script_aula08-2r.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/capa_1_listas_cup.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/capa_2_listas_cup.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/manual_alterar_situação_de_matricula.pdf
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/Shell Script_aula08-1r.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/IMaxwFiFrwPdY.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/imagens/capa_3_listas_cup.png
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/backupv2.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/aula05.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/Operadores em Shell Script — Tecnologia WS.pptx
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/aula06.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/Laços de repetição em Shell Script — Tecnologia WS.pptx
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/aula10.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/aula02.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/rascunhos
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/rascunhos/aula03.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/aula03.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/aula07.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/aula01.sh
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/texto1.txt
+/home/administrador/projetos/shellscript/home/administrador/projetos/shellscript/aula04.sh
+/home/administrador/projetos/shellscript/texto1.txt
+/home/administrador/projetos/shellscript/aula04.sh

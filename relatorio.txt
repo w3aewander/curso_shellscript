@@ -1,0 +1,10 @@
+[H[2J[3J-------------------------------------------
+         Usuario e seus diretorios         
+-------------------------------------------
+
+USUARIOS      DIRETORIO
+administrador                   /home/administrador
+wander                   /home/wander
+zezinho                   /home/zezinho
+
+Qtde Usuarios: 3

@@ -1,10 +1,25 @@
-[H[2J[3J-------------------------------------------
-         Usuario e seus diretorios         
--------------------------------------------
+Relatório do servidor
 
-USUARIOS      DIRETORIO
-administrador                   /home/administrador
-wander                   /home/wander
-zezinho                   /home/zezinho
+Data: ter. 27 out 2026 11:58:39 -03
+Hostname: ubuntu-wander
 
-Qtde Usuarios: 3
+=== UPTIME ===
+ 11:58:39 up  1:43,  1 user,  load average: 1,03, 1,49, 1,44
+
+=== DISCO ===
+Sist. Arq.      Tam. Usado Disp. Uso% Montado em
+tmpfs           3,1G  3,1M  3,1G   1% /run
+/dev/sdb3       449G   96G  331G  23% /
+tmpfs           7,6G     0  7,6G   0% /dev/shm
+efivarfs        128K   73K   51K  60% /sys/firmware/efi/efivars
+none            1,0M     0  1,0M   0% /run/credentials/systemd-journald.service
+tmpfs           7,6G   30M  7,6G   1% /tmp
+none            1,0M     0  1,0M   0% /run/credentials/systemd-resolved.service
+/dev/sdb2       1,1G  6,4M  1,1G   1% /boot/efi
+tmpfs           1,6G   88K  1,6G   1% /run/user/1000
+/dev/sdb1       7,7G  7,3G  477M  94% /run/media/administrador/EXTERNO
+
+=== MEMÓRIA ===
+               total       usada       livre    compart.  buff/cache  disponível
+Mem.:           15Gi       3,9Gi       6,5Gi       138Mi       5,1Gi        11Gi
+Swap:          4,0Gi          0B       4,0Gi

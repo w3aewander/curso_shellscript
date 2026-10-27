@@ -1,0 +1,17 @@
+defaults
+auth on
+tls on
+tls_starttls off
+
+account locaweb
+
+host email-ssl.com.br
+port 465
+
+from contato@seudominio.com
+user contato@seudominio.com
+password senhaxxxx
+
+logfile ~/.msmtp.log
+
+account default : locaweb 

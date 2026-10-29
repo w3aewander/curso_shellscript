@@ -1,0 +1,12 @@
+#!/bin/bash
+# Calcula um potencia na forma: base elevado a potencia
+#
+
+if [[ -z "$1" ||  -z "$2" ]]; then
+  echo -e "\e[1;91mEste comando requer dois parâmetros numéricos.\e[0m";exit 1
+fi
+
+let base="$1"
+let potencia="$2"
+
+echo $(( ${base} ** ${potencia} ))

@@ -1,0 +1,43 @@
+#!/bin/bash
+
+clear
+
+verificar_servicos(){
+
+    sites=("www.google.com.br" "www.escolaws.com.br" "painel.oracle.com" "clubedosprogramadores.com.br")
+
+    for site in "${sites[@]}"; do
+        info="$(ping -c 1 -W 5 "${site}" 2>&1)"
+
+        if [[ "$info" =~ 0%[[:space:]]*(packet loss|de perda) ]]; then
+            printf "\n%-30s\e[1;32m%18s\e[0m\n " "${site}"  "[ OK ]"
+        else
+            printf "\n%-30s\e[1;5;31m%18s\e[0m\n " "${site}"  "[ FAIL ]"
+        fi
+    done
+
+}
+
+desenha_painel(){
+
+# Exemplo: 50 caracteres '#'
+printf '_%.0s' {1..50}
+printf "\n\n%-50s\n" "PAINEL DE MONITORAMENTO DE SERVIÇOS NO SEVIDOR"
+printf '_%.0s' {1..50}
+printf "\n%-30s\t%18s\n" "HOST" "STATUS" 
+
+verificar_servicos
+
+printf '_%.0s' {1..50}
+printf "\nStatus geral:\n"
+printf '_%.0s' {1..50}
+printf "\n\n" ""
+
+}
+
+
+#while true; do
+#  clear
+  desenha_painel
+#  sleep 10
+#done

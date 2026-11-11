@@ -6,14 +6,21 @@ verificar_servicos(){
 
     sites=("www.google.com.br" "www.escolaws.com.br" "painel.oracle.com" "clubedosprogramadores.com.br")
 
+    let contador=0
+    let linha_inicio=9
+
     for site in "${sites[@]}"; do
         info="$(ping -c 1 -W 5 "${site}" 2>&1)"
 
         if [[ "$info" =~ 0%[[:space:]]*(packet loss|de perda) ]]; then
-            printf "\n%-30s\e[1;32m%18s\e[0m\n " "${site}"  "[ OK ]"
+            tput cup $(($linha_inicio + $contador)) 5; echo -e "\e[1;10m${site}\e[0m"
+            tput cup $(($linha_inicio + $contador)) 46; echo -e "\e[1;32m[ OK ]\e[0m"
         else
-            printf "\n%-30s\e[1;5;31m%18s\e[0m\n " "${site}"  "[ FAIL ]"
+            tput cup $(($linha_inicio + $contador)) 5; echo -e "\e[1;10m${site}\e[0m"
+            tput cup $(($linha_inicio + $contador)) 46; echo -e "\e[1;5;31m[ FAIL ]\e[0m"
         fi
+
+        contador=$(($contador + 1))
     done
 
 }
@@ -21,12 +28,28 @@ verificar_servicos(){
 desenha_painel(){
 
 # Exemplo: 50 caracteres '#'
+tput cup 5 5; printf '#%.0s' {1..50}
+tput cup 6 5; printf "%-50s" "PAINEL DE MONITORAMENTO DE SERVIÇOS NO SEVIDOR"
+tput cup 7 5; printf '#%.0s' {1..50}
+tput cup 8 5; printf "%-30s\t%12s" "HOST" "STATUS" 
+
+verificar_servicos
+
+tput cup 13 5; printf '#%.0s' {1..50}
+tput cup 14 5; printf "Status geral:"
+tput cup 15 5; printf '#%.0s' {1..50}
+
+}
+
+desenha_painel_v2(){
+
+# Exemplo: 50 caracteres '#'
 printf '_%.0s' {1..50}
 printf "\n\n%-50s\n" "PAINEL DE MONITORAMENTO DE SERVIÇOS NO SEVIDOR"
 printf '_%.0s' {1..50}
 printf "\n%-30s\t%18s\n" "HOST" "STATUS" 
 
-verificar_servicos
+# verificar_servicos
 
 printf '_%.0s' {1..50}
 printf "\nStatus geral:\n"
@@ -35,9 +58,15 @@ printf "\n\n" ""
 
 }
 
+desenha_painel
+
+while true; do
+  verificar_servicos
+  # dormir por 5 segundos...
+  sleep 5
+done
 
 #while true; do
 #  clear
-  desenha_painel
 #  sleep 10
 #done

@@ -1,0 +1,126 @@
+# Objetivo da Aula #
+
+1. Ao final desta aula, o aluno será capaz de:
+
+. Ler dados de um arquivo CSV utilizando Bash.
+. Utilizar funções para organizar scripts.
+. Construir menus interativos com select e PS3.
+. Utilizar cores no terminal.
+. Centralizar informações na tela.
+. Verificar a existência de usuários no sistema.
+. Criar usuários automaticamente.
+. Excluir usuários automaticamente.
+. Registrar eventos em arquivo de log.
+. Aplicar boas práticas de programação Shell Script.
+
+
+
+
+
+
+
+
+
+
+2. Cenário
+- Imagine que o setor de RH envia uma planilha contendo milhares de usuários que precisam ser cadastrados no servidor Linux.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. Estrutura do projeto
+
+usuarios/
+├── usuarios.csv
+├── usuarios.log
+└── gerencia_usuarios.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Estrutura do arquivo CSV (vamos usar separaor ";")
+
+	usuario;senha
+	joao;123456
+	maria;senha123
+	carlos;abc@123
+	ana;teste123
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Conceitos que serão utilizados
+	funções
+	condicionais
+	loops
+	prompt PS3 + Select para menu
+	exit status
+	Usando cores para o cabeçalho virtual
+
+		VERDE="\e[32m"
+		VERMELHO="\e[31m"
+		AZUL="\e[34m"
+		AMARELO="\e[33m"
+		RESET="\e[0m"
+
+	Centralização do texto
+ 
+
+
+
+
+
+
+
+
+
+
+
+6. Desafio
+- Desafio para os alunos
+
+Implementar duas novas funcionalidades:
+
+Exportar para um arquivo todos os usuários atualmente cadastrados no sistema.
+Criar uma opção "Atualizar Senhas" 
+lendo novamente o arquivo CSV e alterando as senhas dos usuários existentes.
+
+

@@ -1,0 +1,6 @@
+Meu nome é Wanderlei Silva do Carmo 
+e este é o canal Tecnologia WS
+Olá, esse é apenas um arquivo de texto
+que vamos utilizar apenas para demonstrar
+como podemos ler um arquivo dentro de uma
+estrutura de repetição.

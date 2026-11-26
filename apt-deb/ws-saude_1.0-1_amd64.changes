@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 26 Nov 2026 10:00:00 -0300
+Source: ws-saude
+Binary: ws-saude
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 1.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Wanderlei Silva <wander.silva@gmail.com>
+Changed-By: Wanderlei Silva <wander.silva@gmail.com>
+Description:
+ ws-saude   - ferramenta simples de diagnóstico do sistema
+Changes:
+ ws-saude (1.0-1) unstable; urgency=medium
+ .
+   * Versão inicial do pacote.
+   * Implementação da ferramenta de diagnóstico do sistema.
+Checksums-Sha1:
+ a22c226e5ead017349c21eca30229cd56ca5b290 512 ws-saude_1.0-1.dsc
+ c74ead8b2dff44e1846033f272640c0c1b93634c 1238 ws-saude_1.0-1.tar.gz
+ 3df0def5ad72db17536f8e5a1545ff4161b15063 1736 ws-saude_1.0-1_all.deb
+ 4718529c0c91b6ab68fd38275d05fceb0788e9be 6258 ws-saude_1.0-1_amd64.buildinfo
+Checksums-Sha256:
+ 2f58d3dad0e9d6ee449d54b188c637efc2afd3e36d61469004fd2e4102382e4d 512 ws-saude_1.0-1.dsc
+ 6eb9fff0be4dee2c1d5cdb664f1fea8e3aeb52ab40bff7ec6d9e492dcf0834e0 1238 ws-saude_1.0-1.tar.gz
+ 4ce2c26ee3674a70d916678bdcdef7de1feded15048472b7e77670c681377c55 1736 ws-saude_1.0-1_all.deb
+ 2fa1b86e7c8c41726499e058f7c7196becca4c94f0c654ec516eaba811b22930 6258 ws-saude_1.0-1_amd64.buildinfo
+Files:
+ d426f4f87c403fd850a7974d5d979454 512 utils optional ws-saude_1.0-1.dsc
+ 5450eb202c40079545b25424dc74f56c 1238 utils optional ws-saude_1.0-1.tar.gz
+ 808a0f505abad645fca092c00526d7a1 1736 utils optional ws-saude_1.0-1_all.deb
+ 2ed48d7d102991bf2244cb091f5817eb 6258 utils optional ws-saude_1.0-1_amd64.buildinfo

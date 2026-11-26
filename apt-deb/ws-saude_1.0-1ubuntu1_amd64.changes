@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 26 Nov 2026 14:38:49 -0300
+Source: ws-saude
+Binary: ws-saude
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 1.0-1ubuntu1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Wanderlei Silva <wander.silva@gmail.com>
+Changed-By: Administrador <administrador@ubuntu-wander>
+Description:
+ ws-saude   - ferramenta simples de diagnóstico do sistema
+Changes:
+ ws-saude (1.0-1ubuntu1) UNRELEASED; urgency=medium
+ .
+   * Adicionada identificação da distribuição Linux.
+   * Melhorada a apresentação das informações do sistema.
+   * Adicionada exibição da versão do sistema operacional.
+   * Melhorada a organização das mensagens exibidas no terminal.
+   * Corrigidos pequenos problemas na execução do script.
+Checksums-Sha1:
+ c218665d395159c1681764d5ebbb8e730e429b4e 540 ws-saude_1.0-1ubuntu1.dsc
+ 5528cfffaab7f6f671e9571ab211247981c7c2fe 1433 ws-saude_1.0-1ubuntu1.tar.gz
+ 07764aa0c181420a8060483bfbba5fa5cb49bc03 1962 ws-saude_1.0-1ubuntu1_all.deb
+ c96f6109e8060890b2ae556e9c6593cca9599791 6307 ws-saude_1.0-1ubuntu1_amd64.buildinfo
+Checksums-Sha256:
+ 6f377691fb51b4a30e754d7739e2be3c29ebf720158d8c30f37a4dd8b79f2b50 540 ws-saude_1.0-1ubuntu1.dsc
+ 53205043cd3e9c3ba59e5b5fbcf1ae2f23b56dfaba6c19639c6f278ce0c00241 1433 ws-saude_1.0-1ubuntu1.tar.gz
+ b9237c700903b09e4300d9ceb47c6ce800f701eae902546435a4b9cc87f69182 1962 ws-saude_1.0-1ubuntu1_all.deb
+ 8b85728b573e6475b6359330c7d4dc07067d45312e25134c79da98b1fc5ee229 6307 ws-saude_1.0-1ubuntu1_amd64.buildinfo
+Files:
+ 0616b3138124a15bf5bd2d6ab60f9384 540 utils optional ws-saude_1.0-1ubuntu1.dsc
+ ccc882126deb950840b995fc28b72e9d 1433 utils optional ws-saude_1.0-1ubuntu1.tar.gz
+ 27c7f21f4ce67a448b696337e4342d8a 1962 utils optional ws-saude_1.0-1ubuntu1_all.deb
+ 0d35008298da8daa211ca8fefb39ef9e 6307 utils optional ws-saude_1.0-1ubuntu1_amd64.buildinfo

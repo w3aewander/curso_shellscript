@@ -1,0 +1,10 @@
+Package: ws-saude
+Version: 1.0-1ubuntu1
+Architecture: all
+Maintainer: Wanderlei Silva <wander.silva@gmail.com>
+Installed-Size: 10
+Section: utils
+Priority: optional
+Description: ferramenta simples de diagnóstico do sistema
+ Aplicação em Shell Script para apresentar informações
+ básicas do sistema Linux.

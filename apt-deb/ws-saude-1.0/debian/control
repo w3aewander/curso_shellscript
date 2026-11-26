@@ -1,0 +1,14 @@
+Source: ws-saude
+Section: utils
+Priority: optional
+Maintainer: Wanderlei Silva <wander.silva@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: ws-saude
+Architecture: all
+Depends: ${misc:Depends}
+Description: ferramenta simples de diagnóstico do sistema
+ Aplicação em Shell Script para apresentar informações
+ básicas do sistema Linux.

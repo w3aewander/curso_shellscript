@@ -1,0 +1,16 @@
+ws-saude (1.0-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Adicionada identificação da distribuição Linux.
+  * Melhorada a apresentação das informações do sistema.
+  * Adicionada exibição da versão do sistema operacional.
+  * Melhorada a organização das mensagens exibidas no terminal.
+  * Corrigidos pequenos problemas na execução do script.
+
+ -- Administrador <administrador@ubuntu-wander>  Thu, 26 Nov 2026 14:38:49 -0300
+
+ws-saude (1.0-1) unstable; urgency=medium
+
+  * Versão inicial do pacote.
+  * Implementação da ferramenta de diagnóstico do sistema.
+
+ -- Wanderlei Silva <wander.silva@gmail.com>  Thu, 26 Nov 2026 10:00:00 -0300

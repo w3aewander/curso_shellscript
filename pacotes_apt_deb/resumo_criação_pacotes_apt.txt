@@ -1,0 +1,265 @@
+# Instalação das ferramentas...
+sudo apt update
+
+sudo apt install \
+    build-essential \
+    devscripts \
+    debhelper \
+    dpkg-dev \
+    fakeroot \
+    lintian \
+    dh-make \
+    gnupg \
+    apt-utils
+
+Conhecemos as funções das principais ferramentas:
+
+Uma observação importante: até aqui, construímos e instalamos pacotes .deb localmente. Ainda não publicamos um repositório APT. Essa será nossa próxima conquista!
+
+Professor, segue um resumo organizado do que desenvolvemos até aqui, desde a preparação do ambiente até a criação, instalação, atualização e remoção de pacotes Debian. Esse material também pode servir como revisão ao final dessa etapa da aula.
+
+## Resumo — Criação e gerenciamento de pacotes `.deb`
+
+### 1. Preparação do ambiente
+
+Instalamos as ferramentas necessárias para construir e verificar pacotes Debian.
+
+```bash
+sudo apt update
+
+sudo apt install \
+    build-essential \
+    devscripts \
+    debhelper \
+    dpkg-dev \
+    fakeroot \
+    lintian \
+    dh-make \
+    gnupg \
+    apt-utils
+```
+
+Conhecemos as funções das principais ferramentas:
+
+- `dpkg`: gerenciamento de pacotes instalados.
+- `apt`: gerenciamento de pacotes e dependências por meio de repositórios.
+- `dpkg-deb`: inspeção e manipulação de arquivos `.deb`.
+- `dpkg-buildpackage`: construção de pacotes Debian.
+- `debhelper`: automação das etapas de empacotamento.
+- `lintian`: verificação de problemas e boas práticas.
+- `fakeroot`: simulação de permissões administrativas durante a construção.
+
+### 2. Criação da aplicação
+
+Criamos uma aplicação de exemplo chamada `ws-saude`, utilizando Shell Script.
+
+Sua finalidade é apresentar informações básicas do sistema Linux, como:
+
+- Nome do computador.
+- Versão do kernel.
+- Arquitetura do processador.
+- Tempo de atividade do sistema.
+
+Também concedemos permissão de execução ao script:
+
+```bash
+chmod 755 src/ws-saude
+```
+
+### 3. Estrutura do projeto Debian
+
+Preparamos o diretório `debian/`, responsável por armazenar os arquivos de configuração do empacotamento.
+
+Conhecemos os principais arquivos:
+
+| Arquivo | Finalidade |
+|---|---|
+| `debian/control` | Define informações, dependências e características do pacote. |
+| `debian/changelog` | Registra versões e alterações do pacote. |
+| `debian/rules` | Define as regras de construção. |
+| `debian/install` | Indica quais arquivos serão instalados e seus destinos. |
+| `debian/copyright` | Registra informações de direitos autorais e licença. |
+
+### 4. Construção do pacote `.deb`
+
+Utilizamos o comando:
+
+```bash
+dpkg-buildpackage -us -uc
+```
+
+Entendemos que:
+
+- `-us`: não assina o pacote-fonte.
+- `-uc`: não assina o arquivo `.changes`.
+
+Também conhecemos a opção:
+
+```bash
+dpkg-buildpackage -us -uc -b
+```
+
+Nesse caso, solicitamos a construção dos pacotes binários.
+
+O resultado é um arquivo semelhante a:
+
+```text
+ws-saude_1.0-1_all.deb
+```
+
+O sufixo `all` indica que o pacote não é específico de uma arquitetura de processador.
+
+### 5. Inspeção e validação do pacote
+
+Aprendemos a consultar as informações do pacote:
+
+```bash
+dpkg-deb --info ws-saude_1.0-1_all.deb
+```
+
+Listar seu conteúdo:
+
+```bash
+dpkg-deb --contents ws-saude_1.0-1_all.deb
+```
+
+E verificar possíveis problemas de empacotamento:
+
+```bash
+lintian ws-saude_1.0-1_all.deb
+```
+
+### 6. Instalação do pacote
+
+Realizamos a instalação utilizando o APT:
+
+```bash
+sudo apt install ./ws-saude_1.0-1_all.deb
+```
+
+Depois, executamos a aplicação:
+
+```bash
+ws-saude
+```
+
+Também aprendemos a consultar os arquivos instalados:
+
+```bash
+dpkg -L ws-saude
+```
+
+### 7. Atualização do pacote
+
+Aprendemos que o arquivo `debian/changelog` mantém o histórico de versões.
+
+Simulamos uma atualização para:
+
+```text
+ws-saude (1.0-1ubuntu1) UNRELEASED; urgency=medium
+```
+
+Registramos as alterações realizadas e identificamos a importância de manter as entradas em ordem cronológica decrescente.
+
+Também conhecemos o comando:
+
+```bash
+dch -i
+```
+
+Ele facilita a criação de uma nova entrada no changelog.
+
+Depois de atualizar o código e o changelog, construímos novamente o pacote:
+
+```bash
+dpkg-buildpackage -us -uc
+```
+
+A nova versão poderá ser instalada sobre a anterior utilizando:
+
+```bash
+sudo apt install ./ws-saude_1.0-1ubuntu1_all.deb
+```
+
+### 8. Remoção do pacote
+
+Por último, aprendemos a remover o pacote.
+
+Para remover a aplicação:
+
+```bash
+sudo apt remove ws-saude
+```
+
+Para remover também os arquivos de configuração gerenciados pelo pacote:
+
+```bash
+sudo apt purge ws-saude
+```
+
+---
+
+## Fluxo completo que aprendemos
+
+Este é o ciclo básico de desenvolvimento e distribuição de um pacote Debian:
+
+```text
+       CÓDIGO-FONTE
+            |
+            v
+    ESTRUTURA DEBIAN/
+            |
+            v
+    ARQUIVOS DE CONTROLE
+            |
+            v
+     DEBIAN/CHANGELOG
+            |
+            v
+    DPkg-BUILDPACKAGE
+            |
+            v
+       ARQUIVO .DEB
+            |
+            v
+      INSPEÇÃO E TESTES
+            |
+            v
+        INSTALAÇÃO
+            |
+            v
+       ATUALIZAÇÃO
+            |
+            v
+         REMOÇÃO
+```
+
+## O que já conseguimos realizar?
+
+Ao concluir essa etapa, você já conhece o processo fundamental de empacotamento Debian:
+
+1. Preparar uma aplicação Linux.
+2. Criar a estrutura de empacotamento.
+3. Definir metadados e dependências.
+4. Construir um arquivo `.deb`.
+5. Inspecionar e validar o pacote.
+6. Instalar a aplicação.
+7. Preparar e construir uma atualização.
+8. Remover o pacote corretamente.
+
+## Próxima etapa da formação
+
+Agora podemos avançar para uma parte mais profissional: **segurança e distribuição de pacotes por meio de um repositório APT próprio.**
+
+Nessa próxima etapa, vamos estudar:
+
+- Fundamentos de criptografia assimétrica.
+- Criação de chaves GPG.
+- Proteção da chave privada.
+- Exportação da chave pública.
+- Geração dos índices do repositório.
+- Assinatura dos metadados.
+- Configuração do APT com `signed-by`.
+- Distribuição do repositório para outros computadores.
+
+**Uma observação importante:** até aqui, construímos e instalamos pacotes `.deb` localmente. Ainda não publicamos um repositório APT. Essa será nossa próxima conquista!

@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# detecção de erros prévios no script..
+set -eu   
+
+echo "================================"
+echo "       WS-SAÚDE DO SISTEMA"
+echo "================================"
+
+echo "Computador: $(hostname)"
+echo "Kernel: $(uname -r)"
+echo "Arquitetura: $(uname -m)"
+
+echo
+echo "Tempo de atividade:"
+uptime
